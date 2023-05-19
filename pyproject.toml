@@ -1,0 +1,16 @@
+
+[project]
+name = "practicas_python"
+version = "0.1.0"
+description = "Ejercicios de practica de python"
+authors = [
+    {name = "Bruno", email = "enriqueluevano20@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
