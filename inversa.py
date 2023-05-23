@@ -1,0 +1,1 @@
+# def inversa(hola_mundo)
