@@ -1,10 +1,11 @@
 def generar_n_caracs(n, caracter):
-    resultado=caracter*n
+    resultado=""
+    for i in range(n):
+        resultado=resultado+caracter
+    return resultado
+    
 
 
-    num=int(input(":9 "))
-    ctr=input(":a")
 
-    generar_n_caracs(n,caracter)
-    print(resultado)
-
+resultado=generar_n_caracs(5,"x")
+print(resultado)
