@@ -15,5 +15,5 @@ def palindromo_frases(cadena):
 
     return palindromo(cadena_modificada)
 
-frase = palindromo_frases("Abusón, acá no suba")
+frase = palindromo_frases("")
 print(frase)
